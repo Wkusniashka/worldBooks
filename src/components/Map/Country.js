@@ -22,7 +22,7 @@ const Country = (props) => {
             <TouchableWithoutFeedback onPress={handleCountryPress}>
                 <Path
                     d={props.path}
-                    className="Angola"
+                    className={props.name}
                     fill={selected ? color : props.color}
                 />
             </TouchableWithoutFeedback>
